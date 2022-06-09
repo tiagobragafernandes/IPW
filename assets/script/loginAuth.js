@@ -1,5 +1,5 @@
 function verificaLogin(){
-    const login = "juliocesar@email.com";
+    const login = "ronaldorichard@email.com";
     const senha = "123456789";
     const loginDigitado = document.getElementById('auth-email').value;
     const senhaDigitada = document.getElementById('auth-pass').value;
