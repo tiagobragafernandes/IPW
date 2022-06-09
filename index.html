@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <title>FavaApp - Tela de Login</title>
+</head>
+<body>
+    <div class="container">
+        <img src="/assets/img/logo.png" alt="" class="logo">
+        <div class="form">
+            <div class="form-submit">
+                <div class="form-inputs">
+                <h2 class="form-title">Entrar:</h2>
+                <label for="email-campo" class="form-spacing">E-mail:</label>
+                <input type="email" id="auth-email" value="juliocesar@email.com" class="form-spacing form-input">
+                <label for="auth-pass" class="form-spacing form-spacing_pass">Senha:</label>
+                <input type="password" id="auth-pass" value="123456789" class="form-spacing form-input">
+                <button class="signin-button" onclick="verificaLogin()">Entrar</button>
+            </div>
+            </div>
+        </div>
+        <div class="form-signup">
+            <p class="signup-text">Não tem uma conta?</p>
+            <button class="signup-button"><a href="/signup_page.html">Cadastrar-se</a></button>
+        </div>
+    </div>
+    <footer class="web-rights">
+        <p>@2022 FavaApp - Todos os Direitos Reservados</p>
+    </footer>
+</body>
+<script src="assets/script/loginAuth.js"></script>
+</html>

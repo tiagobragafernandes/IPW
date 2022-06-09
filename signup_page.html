@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <title>FavaApp - Cadastre-se</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="/assets/img/logo.png" alt="" class="logo">
+        <div class="form">
+            <div class="form-submit">
+                <div class="form-inputs">
+                    <h2 class="form-title">Crie sua conta</h2>
+                    <label for="email-campo" class="form-spacing">Nome:</label>
+                    <input type="text" id="auth-email" value="" class="form-spacing form-input" placeholder="Digite o seu nome...">
+                    <label for="email-campo" class="form-spacing">Data de Nascimento:</label>
+                    <input type="date" id="auth-email" value="" class="form-spacing form-input">
+                    <label for="email-campo" class="form-spacing">E-mail:</label>
+                    <input type="email" id="auth-email" value="" class="form-spacing form-input" placeholder="Digite o seu e-mail...">
+                    <label for="auth-pass" class="form-spacing form-spacing_pass">Senha:</label>
+                    <input type="password" id="auth-pass" class="form-spacing form-input" placeholder="Digite uma senha forte...">
+                    <label for="auth-pass" class="form-spacing form-spacing_pass">Confirmar Senha:</label>
+                    <input type="password" id="auth-pass" class="form-spacing form-input" placeholder="Repita a senha digitada...">
+                    <button class="signin-button" onclick="verificaCadastro()">Criar</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-signup">
+            <p class="signup-text">Já possui uma conta?</p>
+            <button class="signup-button"><a href="/index.html">Entrar</a></button>
+        </div>
+    </div>
+    <footer class="web-rights">
+        <p>@2022 FavaApp - Todos os Direitos Reservados</p>
+    </footer>
+</body>
+<script src="assets/script/loginAuth.js"></script>
+</html>

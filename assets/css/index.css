@@ -1,0 +1,130 @@
+body{
+    background-color: #F5F5F5;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 30vw;
+    max-width: 425px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 75%;
+    margin: 20px auto;
+}
+
+.form-title{
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    color: #2C4251;
+}
+
+.form-submit{
+    background-color: #FFF;
+    border-radius: 13px;
+    box-shadow: 0px 11px 11px -3px rgba(179,177,179,1);
+    color: #2C4251;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-inputs{
+    color: #2C4251;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.form-spacing{
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.form-input{
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    border: none;
+    color: #2C4251;
+    padding: 8px;
+}
+
+.form-spacing_pass{
+    margin-top: 20px;
+}
+
+.signin-button{
+    background-color: #B6C649;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 11px 11px -3px rgba(179,177,179,1);
+    color: #2C4251;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 40px auto;
+    padding: 10px 20px;
+    transition: ease-in-out 200ms;
+    width: 55%;
+}
+
+.signin-button:hover{
+    background-color: #76860b;
+    color: #FFF;
+    transition: ease-in-out 200ms;
+}
+
+.form-signup{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-text{
+    text-align: center;
+    font-weight: 600;
+}
+
+.signup-button{
+    background-color: #FFF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 11px 11px -3px rgba(179,177,179,1);
+    color: #2C4251;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 20px auto;
+    padding: 10px;
+    width: 60%;
+}
+
+.web-rights{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 705px){
+    .form-title{
+        font-size: 5vw;
+    }
+
+    .signin-button{
+        font-size: 2.5vw;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+    
